@@ -1,12 +1,5 @@
-let loop = 1;
-while(loop === 0)
-{
-    update_cart_total();
-    console.log(loop);
-}
-
 function update_cart_total()
-{;
+{
     var cart = document.getElementsByClassName('cart-items')[0];
     var cart_rows = cart.getElementsByClassName('cart-row');
     var cart_total = 0;
